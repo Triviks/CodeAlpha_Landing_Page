@@ -1,0 +1,1900 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: black;
+}
+
+.navbar {
+    background-color: rgba(2, 2, 2, 1);
+    /* color: white !important; */
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-brand:hover {
+    background-color: rgba(153, 237, 172, 0.653);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(153, 237, 173, 1);
+    color: #fff;
+    padding: 5px;
+    font-size: 18.5px;
+}
+
+#navbar {
+    gap: 80px;  
+}
+
+.navbar-toggler-icon {
+    font-size: 12px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.intro img {
+    position: relative;
+}
+
+.intro .content {
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(193, 227, 255);
+    /* border: 1px solid white; */
+    padding: 0px 20px;
+    width: 50%;
+}
+
+.content .unique {
+    font-size: 10px;
+    padding: 5px;
+    width: fit-content;
+    border: none;
+    cursor:text;
+    color: rgba(255, 255, 255, 0.612);
+    background-color: rgba(240, 248, 255, 0.227);
+    border-radius: 5px;
+    text-align: center;
+    /* margin-left: 300px; */
+}
+
+.content .heading1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.content .para {
+    font-size: 18px;
+    padding: 0px 80px;
+    margin-bottom: 40px;
+
+}
+
+.form-control {
+    display: inline !important;
+    vertical-align: middle;
+}
+
+.content #mail {
+    border: none;
+    border-radius: 10px;
+    background: rgba(245, 245, 245, 0.05);
+    width: 40%;
+    height: 40px;
+    padding: 5px 10px;
+    color: rgb(193, 227, 255);
+    margin-left: 50px;
+}
+
+.content form .custom-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.content form .custom-btn:hover {
+    background-color: rgb(0, 123, 255); 
+    color: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 123, 255, 0.62);
+}
+
+
+.content #mail::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 100;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.contBG {
+    background-color: whitesmoke;
+    /* border-top-right-radius: 25px; */
+    /* border-top-left-radius: 25px; */
+    border-radius: 25px;
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.featuresBox .feat {
+    font-size: 12px;
+    padding: 5px 8px;
+    width: fit-content;
+    border: none;
+    cursor:text;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.featuresBox .heading1 {
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.featFlex {
+    display: flex;
+    gap: 25px;
+}
+
+.featMobile {
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: white;
+    /* height: 500px; */
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.featMobile img {
+    display: block;
+    margin: 0 auto;
+}
+
+.featMobile h4 {
+    margin-top: 50px;
+    padding-right: 80px;
+    font-family: Montserrat;
+}
+
+.featMobile p {
+    color: rgba(0, 0, 0, 0.45);
+    padding-right: 80px;
+    font-family: Montserrat;
+}
+
+.featWeb {
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: white;
+    /* height: 500px; */
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 0px;
+    text-align: left;
+}
+
+.featWeb img {
+    margin-top: 65px;
+    margin-left: 25px;
+    border-end-end-radius: 20px;
+    
+}
+
+.featWeb h4 {
+    padding-right: 80px;
+    font-family: Montserrat;
+}
+
+.featWeb p {
+    color: rgba(0, 0, 0, 0.45);
+    padding-right: 80px;
+    font-family: Montserrat;
+}
+
+.featWeb .custom-btn {
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(0, 123, 255); 
+}
+
+.featWeb .custom-btn:hover {
+    background-color: rgb(0, 110, 255); 
+    color: aliceblue;
+
+}
+
+.priceBox {
+    padding-top: 130px;
+    font-family: Montserrat;
+}
+
+.priceBox .price {
+    font-size: 12px;
+    padding: 5px 8px;
+    width: fit-content;
+    border: none;
+    cursor:text;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;    
+}
+
+.plans .plan {
+    font-size: 12px;
+    padding: 5px 8px;
+    width: fit-content;
+    border: none;
+    cursor:text;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.plans .preplan {
+    font-size: 12px;
+    padding: 5px 8px;
+    width: fit-content;
+    border: none;
+    cursor:text;
+    color: gold;
+    background-color: rgba(255, 217, 0, 0.23);
+    border-radius: 5px;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.box1 {
+    border-radius: 20px;
+    height: fit-content;
+    width: 35%;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px 15px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.box2 {
+    border-radius: 20px;
+    height: fit-content;
+    width: 35%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    margin-top: 15px;
+}
+
+.box1 small, .box2 small {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray
+}
+
+.box1 section {
+    text-align: left;
+    font-size: 18px;
+    color: darkblue;
+}
+
+.box2 section {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.foot {
+    display: block;
+    margin: auto;
+    width: 75%; 
+    font-family: Montserrat;
+    font-weight: 100;
+    padding-top: 150px;
+}
+
+.foot .heading {
+    display: grid;
+    grid-template-columns: 50% 15.5%;
+    gap: 250px;
+    justify-content: start;
+    align-items: center;
+    
+}   
+
+.foot .heading h2 {
+    font-size: 50px;
+    color: rgb(193, 227, 255);
+    text-transform: capitalize;
+}
+
+.foot .footend {
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+}
+
+.footend .contact {
+    display: flex;
+    justify-content: safe;
+    gap: 50px;
+}
+
+.footend .contact ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: rgb(193, 227, 255);
+}
+
+.foot .copyright {
+    color: gray;
+}
+
+.goUp {
+    visibility: hidden;
+    display: flex;
+    justify-content: end;
+    padding: 20px 40px;
+    color: rgb(142, 198, 243);
+    font-size: 40px;
+    cursor: pointer;   
+    z-index: 999; 
+    filter: drop-shadow(1px 1px 3px rgb(142, 198, 243));
+}
+
+@media only screen and (min-width: 320px) and (max-width: 376px) {
+    .navbar-brand img, .navbar-brand span {
+        width: 16px;
+        font-size: 14px;
+    }
+
+    #navbar {
+        gap: 0px;  
+    }
+
+    .intro .content {
+        margin-top: 0px;
+        padding: 0px 0px;
+        width: 65%;
+    }
+    
+    .content .unique {
+        font-size: 6px;
+        padding: 5px;
+    }
+    
+    .content .heading1 {
+        font-size: 16px;
+        font-weight: 350;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .content .para {
+        font-size: 8px;
+        padding: 0px 0px;
+        margin-bottom: 5px;
+    
+    }
+        
+    .content #mail {
+        width: 40%;
+        height: 20px;
+        padding: 5px 10px;
+        margin-left: 0px;
+        font-size: 8px;
+    }
+    
+    .content form .custom-btn {
+        padding: 5px 5px;
+        border: none;
+        cursor: pointer;
+        color: aliceblue;
+        display: inline !important;
+        font-size: 8px;
+    }
+    
+    .content #mail::placeholder {
+        font-weight: 100;
+        font-size: 8px;
+    }
+
+    .contBG {
+        background-color: whitesmoke;
+        /* border-top-right-radius: 25px; */
+        /* border-top-left-radius: 25px; */
+        border-radius: 25px;
+        padding: 20px 20px;
+        text-align: center;
+    }
+    
+    .featuresBox .feat {
+        font-size: 8px;
+        padding: 4px 5px;
+    }
+    
+    .featuresBox .heading1 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .featFlex {
+        display: block;
+        gap: 20px;
+        /* justify-content: center; */
+    }
+    
+    .featMobile {
+        border-radius: 20px;
+        border: 0.5px groove rgba(0, 0, 0, 0.168);
+        width: 100%;
+        background-color: white;
+        height: fit-content;
+        padding: 0px 10px;
+        padding-bottom: 15px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .featMobile img {
+        display: block;
+        margin: 0 auto;
+        width: 78px;
+        height: 98px;
+    }
+    
+    .featMobile h4 {
+        margin-top: 20px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featMobile p {
+        padding-right: 0px;
+        font-size: 8px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .featMobile .btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+    }
+    
+    .featWeb {
+        width: 100%;
+        border: 0.5px groove rgba(0, 0, 0, 0.168);
+        border-radius: 20px;
+        background-color: white;
+        height: 150px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: left;
+    }
+    
+    .featWeb img {
+        margin-top: 8px;
+        margin-left: 45px;
+        border-end-end-radius: 0px;
+        width: 96px;
+        height: 68px;
+        
+    }
+    
+    .featWeb h4 {
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featWeb p {
+        padding-right: 0px;
+        font-size: 8px;
+        margin-bottom: 0px;
+        font-weight: 550;
+
+    }
+    
+    .featWeb .custom-btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+        margin-bottom: 5px;
+        margin-top: -30px;
+    }
+    
+    .featWeb .custom-btn:hover {
+        background-color: rgb(0, 110, 255); 
+        color: aliceblue;
+    
+    }
+
+    .priceBox {
+        padding-top: 50px;
+        font-family: Montserrat;
+    }
+    
+    .priceBox h1 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .priceBox .price {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    
+    .plans {
+        display: block;
+        
+    }
+    
+    .plans .plan {
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    
+    .plans .preplan {
+        font-size: 8px;
+        padding: 3px 5px;
+        width: fit-content;
+        align-items: center;
+    }
+    
+    .preplan img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .box1 {
+        border-radius: 20px;
+        height: fit-content;
+        width: fit-content;
+        font-size: 20px;
+        background-color: white;
+        padding: 20px 15px;
+        margin-top:20px;
+        text-align: left;
+    }
+    
+    .box2 {
+        border-radius: 20px;
+        height: fit-content;
+        width: fit-content;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 20px 15px;
+        margin-top: 15px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    .foot {
+        display: block;
+        margin: auto;
+        width: 75%; 
+        font-family: Montserrat;
+        font-weight: 100;
+        padding-top: 100px;
+    }
+    
+    .foot .heading {
+        display: block;
+        align-items: center; 
+        margin-bottom: 0;  
+    }   
+    
+    .foot .heading h2 {
+        font-size: 30px;
+        color: rgb(193, 227, 255);
+        text-transform: capitalize;
+    }
+    
+    .foot .footend {
+        padding-top: 50px;
+        display: block;
+        gap: 20px;
+    }
+
+    .footend .branding img {
+        width: 20px;
+    }
+    
+    .footend .contact {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footend .contact ul {
+        list-style-type: none;
+        line-height: 20px;
+        font-size: 6px;
+    }
+    
+    .contact ul li a {
+        text-decoration: none;
+        color: rgb(193, 227, 255);
+    }
+    
+    .foot .copyright {
+        color: gray;
+        font-size: 10px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+
+    .navbar-brand img,span {
+        width: 16px;
+        font-size: 14px;
+    }
+
+    #navbar {
+        gap: 0px;  
+    }
+
+    .intro .content {
+        margin-top: 5px;
+        padding: 0px 0px;
+        width: 60%;
+    }
+    
+    .content .unique {
+        font-size: 8px;
+        padding: 5px;
+    }
+    
+    .content .heading1 {
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .content .para {
+        font-size: 8px;
+        padding: 0px 0px;
+        margin-bottom: 5px;
+    
+    }
+    
+    .form-control {
+        display: inline !important;
+        vertical-align: middle;
+    }
+    
+    .content #mail {
+        border: none;
+        border-radius: 10px;
+        background: rgba(245, 245, 245, 0.05);
+        width: 40%;
+        height: 20px;
+        padding: 5px 10px;
+        color: rgb(193, 227, 255);
+        margin-left: 0px;
+        font-size: 8px;
+    }
+    
+    .content form .custom-btn {
+        padding: 5px 5px;
+        border: none;
+        cursor: pointer;
+        color: aliceblue;
+        display: inline !important;
+        font-size: 10px;
+    }
+    
+    .content #mail::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 100;
+        font-family: Montserrat;
+        font-size: 8px;
+    }
+
+    .contBG {
+        background-color: whitesmoke;
+        /* border-top-right-radius: 25px; */
+        /* border-top-left-radius: 25px; */
+        border-radius: 25px;
+        padding: 20px 20px;
+        text-align: center;
+    }
+    
+    .featuresBox .feat {
+        font-size: 8px;
+        padding: 4px 5px;
+    }
+    
+    .featuresBox .heading1 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .featFlex {
+        display: block;
+        gap: 20px;
+        /* justify-content: center; */
+    }
+    
+    .featMobile {
+        border-radius: 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        background-color: white;
+        height: fit-content;
+        padding: 0px 10px;
+        padding-bottom: 15px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .featMobile img {
+        display: block;
+        margin: 0 auto;
+        width: 78px;
+        height: 98px;
+    }
+    
+    .featMobile h4 {
+        margin-top: 20px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featMobile p {
+        padding-right: 0px;
+        font-size: 8px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .featMobile .btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+    }
+    
+    .featWeb {
+        width: 100%;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-color: white;
+        height: fit-content;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: left;
+    }
+    
+    .featWeb img {
+        margin-top: 8px;
+        margin-left: 80px;
+        border-end-end-radius: 0px;
+        width: 96px;
+        height: 68px;        
+    }
+    
+    .featWeb h4 {
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featWeb p {
+        padding-right: 0px;
+        font-size: 8px;
+        margin-bottom: 0px;
+        font-weight: 550;
+
+    }
+    
+    .featWeb .custom-btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+        margin-bottom: 5px;
+        margin-top: -30px;
+    }
+    
+    .featWeb .custom-btn:hover {
+        background-color: rgb(0, 110, 255); 
+        color: aliceblue;
+    
+    }
+
+    .priceBox {
+        padding-top: 50px;
+        font-family: Montserrat;
+    }
+    
+    .priceBox h1 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .priceBox .price {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    
+    .plans {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    
+    .plans .plan {
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    
+    .plans .preplan {
+        font-size: 8px;
+        padding: 3px 5px;
+        width: 90px;
+        align-items: center;
+    }
+    
+    .preplan img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .box1 {
+        border-radius: 20px;
+        height: fit-content;
+        width: fit-content;
+        font-size: 20px;
+        background-color: white;
+        padding: 20px 15px;
+        margin-top:20px;
+        text-align: left;
+    }
+    
+    .box2 {
+        border-radius: 20px;
+        height: fit-content;
+        width: fit-content;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 20px 15px;
+        margin-top: 15px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    .foot {
+        display: block;
+        margin: auto;
+        width: 75%; 
+        font-family: Montserrat;
+        font-weight: 100;
+        padding-top: 100px;
+    }
+    
+    .foot .heading {
+        display: block;
+        align-items: center; 
+        margin-bottom: 0;  
+    }   
+    
+    .foot .heading h2 {
+        font-size: 35px;
+        color: rgb(193, 227, 255);
+        text-transform: capitalize;
+    }
+    
+    .foot .footend {
+        padding-top: 50px;
+        display: block;
+        gap: 20px;
+    }
+
+    .footend .branding img {
+        width: 20px;
+    }
+    
+    .footend .contact {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footend .contact ul {
+        list-style-type: none;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    
+    .contact ul li a {
+        text-decoration: none;
+        color: rgb(193, 227, 255);
+    }
+    
+    .foot .copyright {
+        color: gray;
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 601px) {
+    .navbar-brand img,span {
+        width: 16px;
+        font-size: 14px;
+    }
+
+    #navbar {
+        gap: 0px;  
+    }
+
+    .intro .content {
+        margin-top: 5px;
+        padding: 0px 0px;
+        width: 60%;
+    }
+    
+    .content .unique {
+        font-size: 8px;
+        padding: 5px;
+    }
+    
+    .content .heading1 {
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .content .para {
+        font-size: 10px;
+        padding: 0px 0px;
+        margin-bottom: 5px;
+    
+    }
+        
+    .content #mail {
+        border: none;
+        border-radius: 10px;
+        background: rgba(245, 245, 245, 0.05);
+        width: 40%;
+        height: 20px;
+        padding: 5px 10px;
+        color: rgb(193, 227, 255);
+        margin-left: 0px;
+        font-size: 8px;
+    }
+    
+    .content form .custom-btn {
+        padding: 5px 5px;
+        border: none;
+        cursor: pointer;
+        color: aliceblue;
+        display: inline !important;
+        font-size: 10px;
+    }
+    
+    .content #mail::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 100;
+        font-family: Montserrat;
+        font-size: 8px;
+    }
+
+    .contBG {
+        background-color: whitesmoke;
+        /* border-top-right-radius: 25px; */
+        /* border-top-left-radius: 25px; */
+        border-radius: 25px;
+        padding: 20px 20px;
+        text-align: center;
+    }
+    
+    .featuresBox .feat {
+        font-size: 8px;
+        padding: 4px 5px;
+    }
+    
+    .featuresBox .heading1 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .featFlex {
+        display: block;
+        gap: 20px;
+        /* justify-content: center; */
+    }
+    
+    .featMobile {
+        border-radius: 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        background-color: white;
+        height: fit-content;
+        padding: 0px 10px;
+        padding-bottom: 15px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .featMobile img {
+        display: block;
+        margin: 0 auto;
+        width: 78px;
+        height: 98px;
+    }
+    
+    .featMobile h4 {
+        margin-top: 20px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featMobile p {
+        padding-right: 0px;
+        font-size: 8px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .featMobile .btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+    }
+    
+    .featWeb {
+        width: 100%;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-color: white;
+        height: fit-content;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: left;
+        /* position: relative; */
+    }
+    
+    .featWeb img {
+        margin-top: 10px;
+        margin-left: 150px;
+        border-end-end-radius: 0px;
+        width: 96px;
+        height: 68px;
+        /* position: absolute;
+        right: 0;
+        top: 100%; */
+        
+    }
+    
+    .featWeb h4 {
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featWeb p {
+        padding-right: 0px;
+        font-size: 8px;
+        margin-bottom: 0px;
+        font-weight: 550;
+
+    }
+    
+    .featWeb .custom-btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+        margin-bottom: 5px;
+        margin-top: -30px;
+    }
+    
+    .featWeb .custom-btn:hover {
+        background-color: rgb(0, 110, 255); 
+        color: aliceblue;
+    
+    }
+
+    .priceBox {
+        padding-top: 60px;
+        font-family: Montserrat;
+    }
+
+    .plans {
+        display: grid;
+        justify-content: center;
+    }
+
+    .plans .preplan {
+        font-size: 8px;
+        padding: 3px 5px;
+        width: 90px;
+        align-items: center;
+    }
+    
+    .preplan img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .box1 {
+        width: fit-content;
+    }
+    
+    .box2 {
+        width: fit-content;
+    }
+    
+
+    footer {
+        background-color: black;
+        color: white;
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    .foot {
+        display: block;
+        margin: auto;
+        width: 75%; 
+        font-family: Montserrat;
+        font-weight: 100;
+        padding-top: 100px;
+    }
+    
+    .foot .heading {
+        display: block;
+        align-items: center; 
+        margin-bottom: 0;  
+    }   
+    
+    .foot .heading h2 {
+        font-size: 40px;
+        color: rgb(193, 227, 255);
+        text-transform: capitalize;
+    }
+    
+    .foot .footend {
+        padding-top: 50px;
+        display: block;
+        gap: 20px;
+    }
+
+    .footend .branding img {
+        width: 20px;
+    }
+    
+    .footend .contact {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footend .contact ul {
+        list-style-type: none;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    
+    .contact ul li a {
+        text-decoration: none;
+        color: rgb(193, 227, 255);
+    }
+    
+    .foot .copyright {
+        color: gray;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .navbar-brand img, .navbar-brand span {
+        width: 24px;
+        font-size: 18px;
+    }
+
+    #navbar {
+        gap: 0px;  
+    }
+
+    .intro .content {
+        margin-top: 20px;
+        padding: 0px 0px;
+        width: 60%;
+    }
+    
+    .content .unique {
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    .content .heading1 {
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .content .para {
+        font-size: 12px;
+        padding: 0px 0px;
+        margin-bottom: 5px;
+    
+    }
+    
+    .form-control {
+        display: inline !important;
+        vertical-align: middle;
+    }
+    
+    .content #mail {
+        border: none;
+        border-radius: 10px;
+        background: rgba(245, 245, 245, 0.05);
+        width: 40%;
+        height: 25px;
+        padding: 5px 10px;
+        color: rgb(193, 227, 255);
+        margin-left: 0px;
+        font-size: 8px;
+    }
+    
+    .content form .custom-btn {
+        padding: 5px 5px;
+        border: none;
+        cursor: pointer;
+        color: aliceblue;
+        display: inline !important;
+        font-size: 10px;
+    }
+    
+    .content #mail::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 100;
+        font-family: Montserrat;
+        font-size: 8px;
+    }
+
+    .contBG {
+        background-color: whitesmoke;
+        /* border-top-right-radius: 25px; */
+        /* border-top-left-radius: 25px; */
+        border-radius: 25px;
+        padding: 20px 20px;
+        text-align: center;
+    }
+    
+    .featuresBox .feat {
+        font-size: 8px;
+        padding: 4px 5px;
+    }
+    
+    .featuresBox .heading1 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .featFlex {
+        display: block;
+        gap: 20px;
+        /* justify-content: center; */
+    }
+    
+    .featMobile {
+        border-radius: 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        background-color: white;
+        height: fit-content;
+        padding: 0px 10px;
+        padding-bottom: 15px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .featMobile img {
+        display: block;
+        margin: 0 auto;
+        width: 78px;
+        height: 98px;
+    }
+    
+    .featMobile h4 {
+        margin-top: 20px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featMobile p {
+        padding-right: 0px;
+        font-size: 8px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .featMobile .btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+    }
+    
+    .featWeb {
+        width: 100%;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-color: white;
+        height: fit-content;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: left;
+        /* position: relative; */
+    }
+    
+    .featWeb img {
+        margin-top: 8px;
+        margin-left: 200px;
+        border-end-end-radius: 0px;
+        width: 140px;
+        height: 100px;
+        /* position: absolute;
+        right: 0;
+        top: 100%; */
+        
+    }
+    
+    .featWeb h4 {
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    
+    .featWeb p {
+        padding-right: 0px;
+        font-size: 8px;
+        margin-bottom: 0px;
+        font-weight: 550;
+
+    }
+    
+    .featWeb .custom-btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 8px;
+        padding: 3px;
+        margin-bottom: 5px;
+        margin-top: -30px;
+    }
+    
+    .featWeb .custom-btn:hover {
+        background-color: rgb(0, 110, 255); 
+        color: aliceblue;
+    
+    }
+
+    .priceBox {
+        padding-top: 60px;
+        font-family: Montserrat;
+    }
+
+    .plans .preplan {
+        font-size: 14px;
+        padding: 3px 5px;
+        width: fit-content;
+        align-items: center;
+    }
+
+    .box1 {
+        border-radius: 20px;
+        height: fit-content;
+        width: fit-content;
+        font-size: 20px;
+        background-color: white;
+        padding: 20px 15px;
+        margin-top: 40px;
+        text-align: left;
+    }
+
+    .box1 h2 {
+        font-size: 18px;
+    }
+    
+    .box2 {
+        border-radius: 20px;
+        height: fit-content;
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 20px 15px;
+        margin-top: 15px;
+    }
+
+    .box2 h2 {
+        font-size: 18px;
+    }
+    
+    .box1 small, .box2 small {
+        font-size: 12px;
+        font-weight: bold;
+        color: gray
+    }
+    
+    .box1 section {
+        text-align: left;
+        font-size: 14px;
+        color: darkblue;
+    }
+    
+    .box2 section {
+        text-align: left;
+        font-size: 14px;
+        color: white;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    .foot {
+        display: block;
+        margin: auto;
+        width: 75%; 
+        font-family: Montserrat;
+        font-weight: 100;
+        padding-top: 100px;
+    }
+    
+    .foot .heading {
+        display: block;
+        align-items: center; 
+        margin-bottom: 0;  
+    }   
+    
+    .foot .heading h2 {
+        font-size: 40px;
+        color: rgb(193, 227, 255);
+        text-transform: capitalize;
+    }
+    
+    .foot .footend {
+        padding-top: 50px;
+        display: block;
+        gap: 20px;
+    }
+
+    .footend .branding img {
+        width: 20px;
+    }
+    
+    .footend .contact {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footend .contact ul {
+        list-style-type: none;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    
+    .contact ul li a {
+        text-decoration: none;
+        color: rgb(193, 227, 255);
+    }
+    
+    .foot .copyright {
+        color: gray;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 904px) {
+
+    .navbar {
+        background-color: rgba(2, 2, 2, 1);
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Montserrat;
+    }
+
+    #navbar {
+        gap: 50px;
+        margin-left: 70px;
+    }
+
+    .navbar-brand img, .navbar-brand span {
+        width: 20px;
+        font-size: 14px;
+    }
+
+    .intro .content {
+        margin-top: 50px;
+        padding: 0px 0px;
+        width: 80%;
+    }
+    
+    .content .unique {
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    .content .heading1 {
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .content .para {
+        font-size: 14px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .content #mail {
+        width: 30%;
+        height: 25px;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    
+    .content form .custom-btn {
+        padding: 5px 5px;
+        display: inline !important;
+        font-size: 10px;
+    }
+    
+    .content #mail::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 100;
+        font-family: Montserrat;
+        font-size: 10px;
+    }
+
+    .contBG {
+        background-color: whitesmoke;
+        /* border-top-right-radius: 25px; */
+        /* border-top-left-radius: 25px; */
+        border-radius: 25px;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    
+    .featFlex {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .featMobile {
+        border-radius: 20px;
+        /* border: 1px solid black; */
+        width: 100%;
+        background-color: white;
+        height: fit-content;
+        padding: 0px 10px;
+        padding-bottom: 15px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .featMobile img {
+        display: block;
+        margin: 0 auto;
+        width: 78px;
+        height: 98px;
+    }
+    
+    .featMobile h4 {
+        margin-top: 20px;
+        padding-right: 0px;
+        font-size: 16px;
+    }
+    
+    .featMobile p {
+        padding-right: 0px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .featMobile .btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+        padding: 3px;
+    }
+    
+    .featWeb {
+        width: 100%;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        background-color: white;
+        height: fit-content;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: left;
+        /* position: relative; */
+    }
+    
+    .featWeb img {
+        margin-top: 8px;
+        margin-left: 160px;
+        border-end-end-radius: 0px;
+        width: 300px;
+        height: 200px;
+        /* position: absolute;
+        right: 0;
+        top: 100%; */
+        
+    }
+    
+    .featWeb h4 {
+        padding-right: 0px;
+        font-size: 16px;
+    }
+    
+    .featWeb p {
+        padding-right: 0px;
+        font-size: 12px;
+        margin-bottom: 0px;
+        font-weight: 550;
+
+    }
+    
+    .featWeb .custom-btn {
+        width: fit-content;
+        height: fit-content;
+        font-size: 12px;
+        padding: 3px;
+        margin-bottom: 5px;
+        margin-top: -30px;
+    }
+    
+    .featWeb .custom-btn:hover {
+        background-color: rgb(0, 110, 255); 
+        color: aliceblue;
+    
+    }
+
+    .priceBox {
+        padding-top: 60px;
+        font-family: Montserrat;
+    }
+
+    .plans .preplan {
+        font-size: 14px;
+        padding: 3px 5px;
+        width: fit-content;
+        align-items: center;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    .foot {
+        display: block;
+        margin: auto;
+        width: 75%; 
+        font-family: Montserrat;
+        font-weight: 100;
+        padding-top: 100px;
+    }
+    
+    .foot .heading {
+        display: block;
+        align-items: center; 
+        margin-bottom: 0;  
+    }   
+    
+    .foot .heading h2 {
+        font-size: 40px;
+        color: rgb(193, 227, 255);
+        text-transform: capitalize;
+    }
+    
+    .foot .footend {
+        padding-top: 50px;
+        display: block;
+        gap: 20px;
+    }
+
+    .footend .branding img {
+        width: 20px;
+    }
+    
+    .footend .contact {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footend .contact ul {
+        list-style-type: none;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    
+    .contact ul li a {
+        text-decoration: none;
+        color: rgb(193, 227, 255);
+    }
+    
+    .foot .copyright {
+        color: gray;
+    }
+
+}
+
+@media only screen and (min-width: 904px) and (max-width: 1277px) {
+    .intro .content {
+        margin-top: 50px;
+        padding: 0px 0px;
+        width: 70%;
+    }
+    
+    .content .unique {
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    .content .heading1 {
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .content .para {
+        font-size: 16px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .content #mail {
+        width: 30%;
+        height: 30px;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    .content form .custom-btn {
+        padding: 5px 5px;
+        display: inline !important;
+        font-size: 14px;
+    }
+    
+    .content #mail::placeholder {
+        font-size: 14px;
+    }
+
+    .contBG {
+        padding: 100px 80px;
+    }
+
+    .priceBox {
+        padding-top: 100px;
+    }
+    
+    .plans {
+        gap: 40px;    
+    }
+    
+    .box2 {
+        width: fit-content;
+    }
+
+    .featWeb img {
+        margin-left: 20px;
+    }
+
+    .foot .footend {
+        padding-top: 150px;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        gap: 100px;
+    }
+
+    .footend .contact {
+        display: flex;
+        justify-content: safe;
+        gap: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 1277px) and (max-width: 1389px) {
+    
+    .foot .footend {
+        padding-top: 150px;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        gap: 100px;
+    }
+
+    .footend .contact {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+
+
+
